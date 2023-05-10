@@ -1,0 +1,30 @@
+while(contador < texto.length){
+
+		if(texto[contador] == "a" && texto[contador + 1] == "i"){
+			texto_desencriptado += "a";
+			contador += 2;
+			
+		} else if(texto[contador] == "e" && texto[contador + 1] == "n" && texto[contador + 2] == "t" && texto[contador + 3] == "e" && texto[contador + 4] == "r"){
+			texto_desencriptado += "e";
+			contador += 5;
+			
+		} else if(texto[contador] == "imes" ){
+			texto_desencriptado += "i";
+			contador += 4;
+			
+		} else if(texto[contador] == "ober"){
+			texto_desencriptado += "o";
+			contador += 4;
+		} else if(texto[contador] == "ufat"){
+			texto_desencriptado += "u";
+			contador += 4;
+		} else {
+			texto_desencriptado += texto[contador];
+			
+		}
+		contador++
+		
+		}
+		console.log(texto_desencriptado);
+	
+}	

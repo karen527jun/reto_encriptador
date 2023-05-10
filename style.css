@@ -1,0 +1,163 @@
+body{
+
+	font-family: 'Oswald', sans-serif;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	background: linear-gradient(#37465B, #212B38); 
+}
+
+body section{
+ 
+
+ width: 940px;
+ margin: 0 auto;
+
+}
+
+body h1 {
+
+	font-family: 'Righteous', cursive;
+	color: #726EFF;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+
+}
+
+section label {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+ 	display: block;
+ 	font-size: 20px;
+ 	margin-bottom: 20px;
+
+
+}
+
+#mensaje{
+
+
+  font-family: 'Oswald', sans-serif;	
+  outline: none;
+  font-size: 25px;
+  width:50%;
+  height: 400px; 
+  resize: none; 
+  overflow: auto; 
+  word-wrap: break-word; 
+  border-radius: 15px;
+  background:linear-gradient(#726EFF,#514CFF);
+  padding: 10px;
+}
+
+#mensaje::placeholder {
+
+	color:#212B38 ;
+}
+
+
+
+section #texto_final {
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	background:linear-gradient(#5AFFE7,#00C7AD); 
+	outline: none;
+	resize: none;
+	width: 35%;
+	height: 400px;
+	margin-left: 50px;
+	overflow: auto;
+	border-radius: 15px;
+	vertical-align: top;
+	display: inline-block;
+	padding: 10px;
+
+}
+
+section p{
+	margin: 10px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 10px;
+
+}
+
+
+body button {
+
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 5px;
+	font-size: 20px;
+	transition: 0.5s all;
+	background-color: #37465B; 
+
+	}
+button:hover{
+ 	cursor: pointer;
+ 	background-color: #08C6AB;
+
+}
+
+
+
+#encriptar{
+	padding: 0 30px 0 30px;
+	
+	
+
+}
+
+#desencriptar{
+	padding: 0 30px 0 30px;
+	margin-left: 80px; 
+	
+}
+
+#copiar{
+	padding: 0 30px 0 30px;
+	margin-left: 320px;
+	
+}
+
+footer{
+
+	margin-top:100px;
+}
+
+.foto_footer{
+
+
+	text-align: center;
+}
+
+.foto{
+
+	box-shadow: 0 0 10px black;
+	border-style: solid;
+	border-color:#726EFF; 
+	border-width: 40px;
+	border-radius: 360px;
+	width: 140px; 
+}
+
+footer ul {
+
+	position: absolute;
+	left: 0px;
+	bottom: 120px;
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+	color: white;
+}
+footer li{
+
+	margin-bottom: 10px;
+}

@@ -54,7 +54,7 @@ function encriptar_texto (){
 
 	while(contador < texto.length){
 		
-
+//ya que me daba error el programa , porque el primer conjunto de palabras no las leia para desencriptarlas
 		if (texto[contador] == undefined){
 			texto_desencriptado +="";
 			contador++
@@ -92,7 +92,7 @@ function encriptar_texto (){
 
 	
 }	
-
+//funcion para copiar el texto 
 function copiar_texto() {
     var copyTextarea = document.createElement("textarea");
     copyTextarea.style.position = "fixed";

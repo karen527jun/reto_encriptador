@@ -162,9 +162,10 @@ footer li{
 	margin-bottom: 10px;
 }
 
-@media (max-width: 580px){
+@media screen and (max-width: 480px){
 
 	section label textarea{
+		
 		display: block;
 		width: 100%;
 	}

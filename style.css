@@ -2,13 +2,14 @@ body{
 
 	font-family: 'Oswald', sans-serif;
 	
-	position: relative;
+	
 	background: linear-gradient(#37465B, #212B38); 
 
 
 }
 
 main{
+	position: relative;
 	width: 1200px;
 	margin: 0 auto;
 }
@@ -231,11 +232,19 @@ footer li{
 		top:1115px;;
 	}
 
+	footer{
+		width: 1200px;
+		height: 400px;
+	}
+
+	.foto{
+		margin-top: 50px;
+	}
+
 	footer ul {
 
 	position: absolute;
-	left: 0px;
-	bottom: 120px;
+	top: 2400px;
 	font-size: 20px;
 	text-align: left;
 	vertical-align: top;

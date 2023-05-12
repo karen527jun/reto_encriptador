@@ -103,6 +103,7 @@ function copiar_texto() {
     copyTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(copyTextarea);
+    swal("texto copiado!");
 }
 
 

@@ -1,10 +1,16 @@
 body{
 
 	font-family: 'Oswald', sans-serif;
-	width: 1200px;
-	margin: 0 auto;
+	
 	position: relative;
 	background: linear-gradient(#37465B, #212B38); 
+
+
+}
+
+main{
+	width: 1200px;
+	margin: 0 auto;
 }
 
 body section{
@@ -128,6 +134,7 @@ button:hover{
 
 footer{
 
+	background: url(noche.gif);
 	margin-top:100px;
 }
 
@@ -224,6 +231,17 @@ footer li{
 		top:1115px;;
 	}
 
+	footer ul {
 
-
+	position: absolute;
+	left: 0px;
+	bottom: 120px;
+	font-size: 20px;
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+	color: white;
 	}
+}
+
+	
